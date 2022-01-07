@@ -8,4 +8,3 @@ A somewhat powerful auto clicker based in python
 * keyboard
 * pyqt5
 
-hello
