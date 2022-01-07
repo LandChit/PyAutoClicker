@@ -7,3 +7,5 @@ A somewhat powerful auto clicker based in python
 * pyqutogui
 * keyboard
 * pyqt5
+
+hello
