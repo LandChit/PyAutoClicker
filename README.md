@@ -9,3 +9,8 @@ Simple auto clicker in python with GUI :)
 * keyboard
 * pyqt5
 
+# Future plans
+* click types
+* recorded type clicking
+
+
