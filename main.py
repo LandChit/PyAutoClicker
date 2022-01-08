@@ -99,7 +99,8 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowIcon(QtGui.QIcon('Icon.png'))
+        Form.setWindowTitle(_translate("Form", "PyAutoClicker"))
         self.label.setText(_translate("Form", "AUTOCLCIKER"))
         self.label_2.setText(_translate("Form", "By LandChit"))
         self.groupBox.setTitle(_translate("Form", "Location"))
