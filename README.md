@@ -9,6 +9,12 @@ Simple auto clicker in python with GUI :)
 * keyboard
 * pyqt5
 
+# Features
+* Use Coordinates (x,y)
+* Follow Mouse
+* Random Location
+
+
 # Future plans
 * click types
 * recorded type clicking
