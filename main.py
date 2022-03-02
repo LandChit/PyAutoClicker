@@ -151,6 +151,7 @@ class Ui_Form(object):
     def start(self):
         x,y,delay = self.get_values()
         while True:
+            sleep(delay)
             if is_pressed('f2'):
                 break
                 
