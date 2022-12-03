@@ -150,17 +150,17 @@ class Ui_Form(object):
     # clicker part
     def start(self):
         x,y,delay = self.get_values()
+        
         while True:
-            sleep(delay)
             if is_pressed('f2'):
                 break
-                
             if self.runtype == 0:
                 pyautogui.click(x,y)
             elif self.runtype == 1:
                 pyautogui.click(pyautogui.position())
             elif self.runtype == 2:
                 pyautogui.click(self.random_coords())
+            sleep(delay)
 
     
 
